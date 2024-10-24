@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.cluster import DBSCAN
 
 # Carregar a nuvem de pontos a partir de um ficheiro .ply
-pcd = o3d.io.read_point_cloud("/home/vasco/Desktop/PCA/Armadillo.ply")  # Verifique o caminho
+pcd = o3d.io.read_point_cloud("Armadillo.ply")  # Verifique o caminho
 
 # Verificar se a nuvem de pontos contém dados
 if len(pcd.points) == 0:
