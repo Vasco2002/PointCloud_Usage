@@ -4,7 +4,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
 # Carregar a nuvem de pontos a partir de um ficheiro .ply
-pcd = o3d.io.read_point_cloud("Armadillo.ply")
+pcd = o3d.io.read_point_cloud("data_0.ply")
 
 # Converter a nuvem de pontos para um array NumPy
 points = np.asarray(pcd.points)
